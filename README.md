@@ -16,3 +16,5 @@ A simple re-implementation of basic Linux commands in Rust for learning purposes
 - `touch`
 - `whoami`
 - `yes`
+- `true`
+- `false`
