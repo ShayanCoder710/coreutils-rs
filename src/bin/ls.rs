@@ -11,6 +11,6 @@ fn main() {
     for er in e {
         let entry = er.expect("Cannot Read Entry!");
         let name = entry.file_name();
-        println!("{:?}", name);
+        println!("{}", name.to_string_lossy());
     }
 }
